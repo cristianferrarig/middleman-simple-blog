@@ -11,3 +11,5 @@ gem "builder", "~> 3.0"
 gem "nokogiri"
 
 gem "debugger"
+
+gem 'middleman-gh-pages'
