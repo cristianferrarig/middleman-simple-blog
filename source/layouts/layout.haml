@@ -1,0 +1,48 @@
+!!!
+%html
+  %head
+    %title Blog Title#{' - ' + current_article.title unless current_article.nil?}
+    %meta(http-equiv="content-type" content="text/html" charset="utf-8")
+    %meta(http-equiv="x-ua-compatible" content="ie=edge,chrome=1")
+    %meta(name="description" content="")
+    %meta(name="author" content="")
+    = stylesheet_link_tag 'application'
+
+  %body
+    %main.container{role: "main"}
+      = yield
+
+    %aside.container
+      %h4 Recent Articles
+      %ol.list-unstyled
+        - blog.articles[0...10].each do |article|
+          %li.text-muted
+            %strong= article.date.strftime('%b %e')
+            \-
+            = link_to article.title, article
+      /
+        %h4 Tags
+        %ul.list-inline
+          - blog.tags.each do |tag, articles|
+            %li
+              = link_to tag_path(tag), class: 'tag' do
+                = tag
+                %span (#{articles.size})
+
+        %h4 By Year
+        %ol.list-unstyled
+          - blog.articles.group_by {|a| a.date.year }.each do |year, articles|
+            %li
+              = link_to year, blog_year_path(year)
+              (#{articles.size})
+
+
+    = javascript_include_tag 'application'
+
+    - if build?
+      -# Google Analytics
+      :javascript
+        var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+        (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+        g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+        s.parentNode.insertBefore(g,s)}(document,'script'));
