@@ -1,4 +1,4 @@
-# Middleman Simple Blog
+# Middleman Simple Blog WIP
 
 ### Installation ###
 

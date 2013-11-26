@@ -1,14 +1,35 @@
+//$base-color: #FDFDFD;
+$base-color: #F9F9F9;
+$text-color: #444650;
+$meta-color: lighten(#444650,40%);
+
+$header-height: 100px;
+
 body {
-  font-family: Georgia, Cambria, "Times New Roman", Times ,serif;
+  //font-family: Georgia, Cambria, "Times New Roman", Times ,serif;
+  font-family: 'Noto Serif', 'Georgia', 'Times New Roman', serif;
+  background-color: $base-color;
+  color: $text-color;
+  padding-top: $header-height;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Myriad Pro", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+  //font-family: "Myriad Pro", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+  font-family: 'Noto Serif', 'Georgia', 'Times New Roman', serif;
+}
+
+header {
+  background-color: white;
+  padding: 30px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
 }
 
 article, aside {
   padding: 50px 0;
-  border-top: 1px solid #EEE;
+  border-bottom: 1px solid #EEE;
 }
 
 //main,
@@ -25,10 +46,11 @@ article {
     margin-bottom: 20px;
     a, a:hover {
       text-decoration: none;
-      color: #333;
+      color: $text-color;
     }
   }
 }
+
 
 .metadata {
   @extend .text-muted;
@@ -50,7 +72,9 @@ article {
 .metadata a:last-child:after {
   content: ''
 }
-
+.text-muted {
+  color: $meta-color;
+}
 
 .read-more {
   font-family:  Helvetica, Arial, Verdana, sans-serif;
@@ -63,10 +87,10 @@ article {
 
   margin-top: 20px;
 
-  background-color: #444;
+  background-color: $text-color;
   color: #fff;
   &:hover {
-    background-color: #333;
+    background-color: darken($text-color,10%);
     color: #fff;
     text-decoration: none;
   }
