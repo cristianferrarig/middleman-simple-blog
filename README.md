@@ -11,7 +11,7 @@ Initialize middleman on a new or existing folder `$ middleman init path_to_proje
 ### Roadmap
 Plis check de inglish!
 
-- Make templates for common post types.
+- Make templates for common post types (Audio, Chat, Gallery, Image, Video, Link, Quote, Snippet, Article).
 - Configurate middleman-thumbnailer
 - Configurate middleman-syntax
 - Add beter styles to middleman-blog-editor
