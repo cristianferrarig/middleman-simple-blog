@@ -1,7 +1,8 @@
 ---
-title: Nullam quis risus eget urna mollis ornare vel eu leoenean lacinia
-date: 2013-11-20
-tags: California, Dell, Laptop, Recovered laptop, USA
+:title: Nullam quis risus eget urna mollis ornare vel eu leoenean lacinia
+:date: 2013-11-20
+:tags: California, Dell, Laptop, Recovered laptop, USA
+blog_editor_id: 7
 ---
 
 Aenean lacinia bibendum nulla sed consectetur. Donec sed odio dui. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras justo odio, dapibus ac facilisis in, egestas eget quam.

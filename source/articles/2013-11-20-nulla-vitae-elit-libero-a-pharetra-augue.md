@@ -1,7 +1,8 @@
 ---
-title: Nulla vitae elit libero, a pharetra augue
-date: 2013-11-20 19:13 UTC
-tags: Euismod, Vehicula, Amet, Egestas, Lorem
+:title: Nulla vitae elit libero, a pharetra augue
+:date: 2013-11-20 19:13 UTC
+:tags: Euismod, Vehicula, Amet, Egestas, Lorem
+blog_editor_id: 2
 ---
 
 Etiam porta sem malesuada magna mollis euismod. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Nullam quis risus eget urna mollis ornare vel eu leo. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.

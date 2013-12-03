@@ -1,7 +1,8 @@
 ---
-title: Fusce dapibus tellus ac cursus commodo tortor mauris condimentum nibh
-date: 2013-11-20
-tags: California, Dell, Laptop, Recovered laptop, USA
+:title: Fusce dapibus tellus ac cursus commodo tortor mauris condimentum nibh
+:date: 2013-11-20
+:tags: California, Dell, Laptop, Recovered laptop, USA
+blog_editor_id: 6
 ---
 
 Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue. Nulla vitae elit libero, a pharetra augue. Nulla vitae elit libero, a pharetra augue. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.

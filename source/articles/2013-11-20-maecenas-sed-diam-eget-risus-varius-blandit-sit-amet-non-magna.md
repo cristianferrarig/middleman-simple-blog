@@ -1,7 +1,8 @@
 ---
-title: Maecenas sed diam eget risus varius blandit sit amet non magna
-date: 2013-11-20 19:13 UTC
-tags: Euismod, Vehicula, Amet, Egestas, Lorem
+:title: Maecenas sed diam eget risus varius blandit sit amet non magna
+:date: 2013-11-20 19:13 UTC
+:tags: Euismod, Vehicula, Amet, Egestas, Lorem
+blog_editor_id: 4
 ---
 
 Cras mattis consectetur purus sit amet fermentum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.

@@ -1,7 +1,8 @@
 ---
-title: Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum
-date: 2013-11-20 19:13 UTC
-tags: Euismod, Vehicula, Amet, Egestas, Lorem
+:title: Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum
+:date: 2013-11-20 19:13 UTC
+:tags: Euismod, Vehicula, Amet, Egestas, Lorem
+blog_editor_id: 1
 ---
 
 Cras mattis consectetur purus sit amet fermentum. Maecenas sed diam eget risus varius blandit sit amet non magna. Maecenas faucibus mollis interdum. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Maecenas sed diam eget risus varius blandit sit amet non magna. Sed posuere consectetur est at lobortis.

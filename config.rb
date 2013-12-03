@@ -27,7 +27,11 @@ end
 
 page "/feed.xml", :layout => false
 
-
+activate :blog_editor do |editor|
+  # Where to place the editor UI.
+  editor.mount_at = "/editor"
+  editor.use_minified_assets = false
+end
 
 
 
@@ -107,6 +111,8 @@ configure :development do
   set :debug_assets, true
 end
 
+activate :directory_indexes
+activate :livereload
 
 # Build-specific configuration
 configure :build do

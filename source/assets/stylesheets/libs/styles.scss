@@ -1,13 +1,22 @@
 //$base-color: #FDFDFD;
+// Theme 1
 $base-color: #F9F9F9;
 $text-color: #444650;
 $meta-color: lighten(#444650,40%);
 
 $header-height: 100px;
 
+// Theme 2
+//$base-color: #34373E;
+//$text-color: #FFFFFF;
+
+
+$font-family: 'Noto Serif', 'Georgia', 'Times New Roman', serif;
+
+
 body {
   //font-family: Georgia, Cambria, "Times New Roman", Times ,serif;
-  font-family: 'Noto Serif', 'Georgia', 'Times New Roman', serif;
+  font-family: $font-family;
   background-color: $base-color;
   color: $text-color;
   padding-top: $header-height;
@@ -15,7 +24,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   //font-family: "Myriad Pro", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
-  font-family: 'Noto Serif', 'Georgia', 'Times New Roman', serif;
+  font-family: $font-family;
 }
 
 header {
@@ -115,3 +124,27 @@ aside {
   }
 }
 
+
+
+
+
+
+.post-item {
+
+}
+
+.post-content {
+
+}
+
+.post-header {
+
+}
+
+.post-title {
+
+}
+
+.post-subtitle {
+
+}

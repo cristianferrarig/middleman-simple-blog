@@ -1,7 +1,10 @@
 ---
-title: Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus
+title: Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus
 date: 2013-11-20 19:12 UTC
+category: nono
 tags: Euismod, Vehicula, Amet, Egestas, Lorem
+blog_editor_id: 5
+published: false
 ---
 
 Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Vestibulum id ligula porta felis euismod semper. Curabitur blandit tempus porttitor. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
