@@ -18,9 +18,9 @@ Plis check de inglish!
 - [x] Configure `middleman-blog-editor`
 - [ ] Move templates to `source/templates/default`
 - [ ] Make templates for common post types (Audio, Chat, Gallery, Image, Video, Link, Quote, Snippet, Article).
-- [ ] Configurate middleman-thumbnailer
-- [ ] Configurate middleman-syntax
-- [ ] Add beter styles to middleman-blog-editor
+- [ ] Configurate `middleman-thumbnailer`
+- [ ] Configurate `middleman-syntax`
+- [ ] Add beter styles to `middleman-blog-editor`
 - [ ] Configurate pagination
 - [ ] Add styles to pagination
 - [ ] Add variables for post header to frontmater
