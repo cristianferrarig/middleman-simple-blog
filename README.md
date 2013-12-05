@@ -24,6 +24,9 @@ Plis check de inglish!
 - [ ] Configurate pagination
 - [ ] Add styles to pagination
 - [ ] Add variables for post header to frontmater
+- [ ] Add author block
+- [ ] Add prev and next post
+- [ ] Add comments (Disqus)
 - [ ] Define scss variables for theme configuration 
 - [ ] Add styles for tags and calendar pages
 - [ ] Add tags component
